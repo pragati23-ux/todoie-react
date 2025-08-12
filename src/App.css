@@ -1,0 +1,36 @@
+body{
+  background-color: greenyellow;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.todocontainer{
+ width:300px;
+ padding:10px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: grey;
+ border-radius: 20px;
+  
+  
+ 
+ }
+ .todoitems{
+  display: flex;
+  justify-content:    space-between;
+  align-items: center;
+  
+
+ }
+.veer{
+   width: 100%;
+   padding: 10px 20px;
+   border-radius: 10px;
+   border: none;
+   font-weight: bold;
+   cursor: pointer;
+
+ }
+ .todo-text{
+  margin-left: 10px;
+ }
